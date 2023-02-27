@@ -1,0 +1,10 @@
+n = int(input('몇 개 출력?:'))
+w = int(input('몇 개 마다 줄 바꿈?'))
+
+for _ in range(n//w):
+    print("*" * w)    
+#나머지 별들을 찍어준다.
+rest = n%w;
+if rest:
+    print("*" * rest)        
+  
