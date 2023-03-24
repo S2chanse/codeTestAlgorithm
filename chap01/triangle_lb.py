@@ -9,5 +9,4 @@ for _ in range(n):
                 if j == i:
                     array.append(i)
                 break
-    for                 
-                    
+        
